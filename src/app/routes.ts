@@ -8,6 +8,8 @@ import { TermsPage } from "./pages/TermsPage";
 import { CookiePage } from "./pages/CookiePage";
 import { FeaturesPage } from "./pages/FeaturesPage";
 import { TrustSafetyPage } from "./pages/TrustSafetyPage";
+import { SupportPage } from "./pages/SupportPage";
+import { AccountDeletionPage } from "./pages/AccountDeletionPage";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,8 @@ export const router = createBrowserRouter([
       { path: "privacy", Component: PrivacyPage },
       { path: "terms", Component: TermsPage },
       { path: "cookie", Component: CookiePage },
+      { path: "support", Component: SupportPage },
+      { path: "account-deletion", Component: AccountDeletionPage },
     ],
   },
 ]);

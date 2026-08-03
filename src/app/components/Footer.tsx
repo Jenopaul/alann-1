@@ -16,6 +16,8 @@ const footerLinks = {
     { label: "Privacy Policy", to: "/privacy" },
     { label: "Terms of Service", to: "/terms" },
     { label: "Cookie Policy", to: "/cookie" },
+    { label: "Support", to: "/support" },
+    { label: "Account Deletion", to: "/account-deletion" },
   ],
 };
 
