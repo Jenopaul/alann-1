@@ -39,7 +39,7 @@ export function SupportPage() {
         </div>
 
         <div className="grid gap-4 md:grid-cols-2">
-          <SupportCard icon={Mail} title="Email Support" value="For general support and account-related questions, email support@alann.ae." />
+          <SupportCard icon={Mail} title="Email Support" value="For general support and account-related questions, email developer@alann.ae." />
           <SupportCard icon={Phone} title="Phone Support" value="Call +971 505951024 for urgent assistance during business hours." />
           <SupportCard icon={Clock} title="Business Hours" value="Monday to Friday, 9:00 AM to 6:00 PM (UAE time)." />
           <SupportCard icon={HelpCircle} title="Response Time" value="We aim to respond to all inquiries within 1 business day." />

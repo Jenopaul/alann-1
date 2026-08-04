@@ -58,7 +58,7 @@ export function AccountDeletionPage() {
             <div className="flex items-start gap-3">
               <Mail size={16} className="mt-1 shrink-0" style={{ color: "#9d4edd" }} />
               <p className="font-['Poppins',sans-serif] text-sm leading-relaxed" style={{ color: "#99a1af" }}>
-                To request deletion, contact us at support@alann.ae. If you are unable to access your email, please include an alternate verification method in your message.
+                To request deletion, contact us at developer@alann.ae. If you are unable to access your email, please include an alternate verification method in your message.
               </p>
             </div>
           </div>
