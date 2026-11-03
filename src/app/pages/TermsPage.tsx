@@ -21,7 +21,8 @@ export function TermsPage() {
         >
           <FileText size={12} /> Legal
         </div>
-        <h1 className="font-['Poppins',sans-serif] font-bold text-4xl md:text-5xl text-white mb-4">Terms of Service</h1>
+        <h1 className="font-['Poppins',sans-serif] font-bold text-4xl md:text-5xl text-white mb-3">Terms of Service</h1>
+        <p className="font-['Poppins',sans-serif] text-sm text-gray-400">Last updated: November 3, 2026</p>
       </section>
 
       <section className="pb-24 px-6">
@@ -62,15 +63,17 @@ export function TermsPage() {
             <p><strong className="text-white">Accurate Listings:</strong> All listings must accurately describe the item or service offered, including condition, price, and any material defects.</p>
             <p><strong className="text-white">Prohibited Content:</strong> You may not list items that are illegal in the UAE, counterfeit, stolen, or otherwise violate applicable UAE law.</p>
             <p><strong className="text-white">Intellectual Property:</strong> You retain ownership of content you post but grant ALANN a non-exclusive license to display, process, and promote your listings on the Platform.</p>
-            <p><strong className="text-white">AI Processing:</strong> By uploading photos, you authorize ALANN's AI systems to analyze and generate listing descriptions. These descriptions are subject to your review and approval before publication.</p>
+            <p className="p-3.5 rounded-xl border border-purple-900/40 bg-purple-950/20 text-purple-200">
+              <strong className="text-white">AI Processing:</strong> With your permission, given in the app, we send your vehicle photos, information and documents to the third-party AI services named in our Privacy Policy (including Google Gemini API) to verify your vehicle and generate listing descriptions. These descriptions are subject to your review and approval before publication.
+            </p>
           </LegalSection>
 
           <LegalSection title="5. Transactions">
             <p>ALANN.AE is a marketplace platform and is not a party to transactions between buyers and sellers. We do not:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li>Guarantee the quality, safety, or legality of listed items</li>
-              <li>Process payments between buyers and sellers</li>
-              <li>Verify item descriptions beyond our AI validation systems</li>
+              <li>Process direct payments between buyers and sellers for transacted goods</li>
+              <li>Verify item descriptions beyond our AI-assisted validation, which uses third-party AI services</li>
             </ul>
             <p>All transactions are solely between the buyer and seller. We encourage users to meet in safe public locations for in-person exchanges.</p>
           </LegalSection>
@@ -87,8 +90,11 @@ export function TermsPage() {
             </ul>
           </LegalSection>
 
-          <LegalSection title="7. Termination">
-            <p>ALANN reserves the right to suspend or terminate any account that violates these Terms, with or without notice. Users may delete their accounts at any time by contacting support.</p>
+          <LegalSection title="7. Account Deletion & Termination">
+            <p>ALANN reserves the right to suspend or terminate any account that violates these Terms, with or without notice.</p>
+            <p>
+              Users may delete their accounts at any time directly in the mobile application under <span className="text-purple-300 font-medium">Settings &gt; Privacy Center &gt; Delete Account</span>, or online via our <a href="/account-deletion" className="text-purple-400 hover:text-purple-300 underline">Account Deletion</a> page.
+            </p>
           </LegalSection>
 
           <LegalSection title="8. Limitation of Liability">
@@ -103,6 +109,16 @@ export function TermsPage() {
             <p>For questions regarding these Terms:</p>
             <p><strong className="text-white">ALANN Enterprises LLC</strong></p>
             <p>SHARJAH MEDIA CITY FREEZONE, Sharjah. UAE</p>
+            <p>
+              Email:{" "}
+              <a href="mailto:support@alann.ae" className="text-purple-400 hover:text-purple-300 font-medium">
+                support@alann.ae
+              </a>
+              {" "}·{" "}
+              <a href="mailto:privacy@alann.ae" className="text-purple-400 hover:text-purple-300">
+                privacy@alann.ae
+              </a>
+            </p>
           </LegalSection>
         </div>
       </section>
